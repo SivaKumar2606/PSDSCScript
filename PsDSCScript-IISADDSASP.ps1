@@ -1,8 +1,8 @@
 # PSDSC Script For IIS,Asp.Net45 and ADDS
 
-Configuration WebServerAspAdds
+Configuration <ConfigName>
 {
-    Node WinDCvm
+    Node <NodeName>
     {
         WindowsFeature IIS {
             Ensure = 'Present'
